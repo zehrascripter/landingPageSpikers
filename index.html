@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sound System Webiste</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(to right, #3c3c3c, #5b5a5a);
+        }
+
+
+        nav {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav .nav-items,
+        .logo {
+            margin: 0px 6rem;
+            font-size: larger;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav .nav-items a {
+            padding-right: 3rem;
+            font-size: small;
+        }
+
+        nav .nav-items button {
+            height: 40px;
+            width: 150px;
+            background-color: transparent;
+            border: none;
+            border: 1px solid white;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .main {
+            max-width: 1400px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 4rem 0px 0px 5rem;
+            gap: 30px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .side .headings {
+            font-size: large;
+            color: white;
+        }
+
+        h1:first-child {
+            color: rgb(211, 3, 211);
+        }
+
+        .side .para {
+            margin-top: 3rem;
+            color: white;
+        }
+
+        .side button {
+            margin-top: 3rem;
+            padding: 13px;
+            width: 180px;
+            border-radius: 5px;
+            border: none;
+            border: 1px solid white;
+            background-image: linear-gradient(to right, #ebeb2f, #f56f1c);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ==============================nav=========================== -->
+
+    <nav>
+        <div class="logo">
+            <a href=""><i class="fa-solid fa-signal"></i></a>
+            <a href="">SiteLogo</a>
+        </div>
+
+        <div class="nav-items">
+            <a href="">About</a>
+            <a href="">Features</a>
+            <a href="">Pricing</a>
+            <a href="">Gallery</a>
+            <a href="">Team</a>
+            <button>Add to cart</button>
+        </div>
+    </nav>
+
+
+    <!-- ===================================main======================= -->
+
+    <div class="main">
+        <div class="side">
+            <div class="headings">
+                <h1>Yandex.Satation -</h1>
+                <h1>smart speaker with</h1>
+                <h1>voice assistant Alice</h1>
+            </div>
+
+            <div class="para">
+                <p>Control your voice: at your request, she will fill the house</p>
+                <p>with music, show a show a movie with good sound or just chat</p>
+                <p>with you.</p>
+            </div>
+
+            <div class="button">
+                <button>Buy on Yandex Market</button>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="speakerss.png" alt="speakers" />
+        </div>
+    </div>
+
+</body>
+
+</html>
